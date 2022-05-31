@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sito</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+  </head>
+  <body data-spy="scroll" data-target="#navbar-example">
+<!--NAVBAR -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">LAZZA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-example"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-example">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#HOME">HOME <span class="sr-only">(current)</span></a  >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#VIDEO">VIDEO CANZONE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#CITAZIONI">CITAZIONI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#ALBUM">ALBUM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--HEAD -->
+<div class="row" id="HOME">
+      <div class="col-md-6 offset-md-3 col-sm-6 offset-sm-3">
+        <div class="card-body" style="text-align:center;">
+          <br>
+          <br>
+          <br>
+          <hr>
+          <h1 class="card-title">LAZZA</h1>
+        </div>
+          <p class="lead">
+            Questa pagina web è dedicata a Lazza, pseudonimo di Jacopo Lazzarini,
+            è un rapper, musicista e produttore discografico italiano.
+          </p>
+          <img src="img/Lazza.jpg" alt="Lazza" class="d-block w-100">
+      </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Curiosità</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            Jacopo Lazzarini nasce a Milano il 22 Agosto 1993 e, a differenza di molti altri suoi colleghi, al momento
+            di scegliere il proprio nome d’arte, opta per un’abbreviazione del proprio cognome: ecco perché oggi si fa chiamare Lazza.
+            </div>
+          </div>
+        </div>
+</div><br><br>
+<!--VIDEO -->
+<div class="row" id="VIDEO">
+    <div class="col-md-6 offset-md-3 col-sm-6 offset-sm-3">
+      <hr><br><br>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aTJHOSi2e9Y?start=61" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+<!--CITAZIONI -->
+<div class="container big-padding" id="CITAZIONI">
+  <hr>
+      <h2 style="text-align:center;">CITAZIONI</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h5>PER SEMPRE</h5>
+          <p><i>Se fai schifo dentro sarai bella fuori, ma dalla mia vita</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>SUPERMAN</h5>
+          <p><i>Sono cresciuto senza supereroi, sai che ho puntato tutto su di me</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>BISTURI FREESTYLE</h5>
+          <p><i>Neanche un bisturi in pancia mi ha tolto la voglia di vivere
+            di scrivere, di tagliare la testa a queste vipere</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>OUVERTURE</h5>
+          <p><i>Un macello di problemi sembrava che ci andassi a caccia
+            la delusione vista in uno specchio giuro, aveva la mia stessa faccia</i></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h5>MNM</h5>
+          <p><i>Se tu rimani, così mi aiuti, un po’ mi curi i piani,
+             che in testa già da piccolo ne avevo di tutti i colori come tulipani</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>WEEKEND</h5>
+          <p><i>Vorrei dirti le cose che tutti ti dicono però pensarle davvero
+          e finire gli zeri sul conto con te con il rischio di tornare a zero</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>TAKE AWAY</h5>
+          <p><i>Più guardo i tuoi amici fake, ehi
+            <br>
+            frà più voglio bene ai miei, ehi</i></p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>PORTO CERVO</h5>
+          <p><i>Baby lo sai cosa dovremmo fare?
+            entrare in quei negozi di soli ricchi e puttane
+            farci guardare male
+            per i nostri tattoo, poi spendere un capitale
+            maltrattare il personale, uscire senza ringraziare</i></p>
+        </div>
+      </div>
+    </div>
+<!--SLIDER DISCHI -->
+<div class="container" id="ALBUM">
+  <hr>
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/zzala.jpg" class="d-block w-100" alt="ZZALA">
+        <h5>Zzala</h5>
+        <p>Primo disco ufficiale di Lazza</p>
+
+        <table id="Zzala">
+        <tr>
+          <th colspan="2" bgcolor="pink" width="100%">ELENCO TRACCE</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Ouverture	</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Origami</li>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Dda	</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mnm	</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Lario	</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Maleducati</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Zzala	</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Take Away	</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>430	</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Mob	</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Silenzio</td>
+        </tr>
+      </table>
+        <br>
+        <br>
+      </div>
+    <div class="carousel-item">
+      <img src="img/remida.jpg" class="d-block w-100" alt="RE MIDA">
+        <h5>Re Mida</h5>
+        <p>Secondo disco ufficiale di Lazza</p>
+        <table id="Remida">
+          <tr>
+            <th colspan="2" bgcolor="pink" width="100%">ELENCO TRACCE</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Ouver2re	</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Gigolò</li>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Dry (La Mia Ora)</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Million Dollar</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Frio</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Per Sempre</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Box Logo</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Re Mida</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Morto Mai</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Netflix</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Superman</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>2 Cellulari</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Cazal</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>24h</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Catrame</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Povero te</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Desperado</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Iside</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Gucci Ski Mask</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>Porto Cervo </td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>No Selfie</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span></a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span></a>
+  </div>
+</div>
+<!--FOOTER-->
+<div class="footer">
+  <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">(?) Qualcosa su Lazza</button>
+</div>
+<a id="gototop" href="#" rel="noindex,nofollow" style="position: fixed; opacity: 1; display: block; bottom: 2px; right: 2px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+  </svg></a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+	$('body').scrollspy({ target: '#navbar-example' });
+
+	$(".navbar-collapse ul li a[href^='#']").on('click',function(e){
+
+		target = this.hash;
+		e.preventDefault();
+
+		$('html,body').animate({
+			scrollTop : $(this.hash).offset().top
+		}, 600, function(){
+			window.location.hash = target;
+		});
+
+	});
+
+</script>
+  </body>
+</html>
